@@ -2,7 +2,7 @@
 # Emeli Castellon & Lara Willson
 ## User Demographics and Resort Factors Effect on User Resort Scores
 
-##Project Plan
+## Project Plan
 
 For this project, we wanted to look into a dataset that related to the hospitality industry. We found a 2015 TripAdvisor dataset on Kaggle that we were interested in analyzing. The dataset presents information about reviews left on 21 different hotels in Las Vegas, including user information and hotel amenities. 
 
@@ -44,7 +44,7 @@ From this first glance, there are a few things about the structure / data types 
 
 <img src="datainput&summary.png" width="1000"/>
 
-##Step 2
+## Step 2
 
 We continue to take a quick, high-level glance at our data - including a histogram and a few additional stats on our dependent variable - Score.
 
@@ -52,7 +52,7 @@ We continue to take a quick, high-level glance at our data - including a histogr
 
 <img src="dependentvar.png" width="1000"/>
 
-##Step 3
+## Step 3
 
 The next think we wanted to do was clean up our data. We made sure all of our columns were defined appropriately with their respective datatypes. This step includes adjusting the boolean fields from Yes/No data types to 0/1 datatypes. After that, we verify the adjustments were made to the dataypes and the data.
 
@@ -60,7 +60,7 @@ The next think we wanted to do was clean up our data. We made sure all of our co
 
 <img src="reviewdatapoints.png" width="1000"/>
 
-##Step 4
+## Step 4
 
 Now we start to dive deeper into our analysis. We want to take a quick look to determine whether there are any relevant correlations between our numerical data points. We want to take note of any data points that are highly correlated (positively or negatively) as these are likely fields we can use when creating our regression.
 
@@ -72,7 +72,7 @@ There are a few data points that show a slight positive correlation between each
 
 <img src="correlations.png" width="1000"/>
 
-##Step 5
+## Step 5
 
 Even though none of the quantitative variables had strong correlations to our dependent variable, we want to try creating a linear and logistic regression, so we could take a look at the statistics of the best regressions we could find at this point.
 
@@ -88,7 +88,7 @@ And run the summary to look at the statistics:
 
 Looking at the t values and p values, the only variable that appears to be remotely close to significant is free internet.  Additionally, the r-squared value indicates that the model is not particularly successful. 
 
-##Step 6
+## Step 6
 
 Knowing the Hotel Stars and Pool variables are not helping the model at all we go ahead and remove those variables and run the model and summary again. The results are very similar, the r-squared value again indicates our best model is not a successful one.
 
