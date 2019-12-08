@@ -35,7 +35,7 @@ Looking at the data  points included in our dataset, instinctually, we wanted to
 
 To conduct our initial analysis, we take a 100 record sample from the larger dataset to analyze. This way we leave enough independent samples to test any regressions we create.
 
-##Step 1
+## Step 1
 
 The first thing we do is import the data sample and take a look at the summary.  We want to verify that there are no problems with the data and get a brief summary of what our data looks like. 
 
