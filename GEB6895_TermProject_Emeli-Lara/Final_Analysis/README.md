@@ -96,7 +96,7 @@ Knowing the Hotel Stars and Pool variables are not helping the model at all we g
 
 <img src="lmmodelattempt2two.png" width="1000"/>
 
-
+Our regression analysis question was to find whether certain hotel amenities affected the review of the hotel. We also considered the length of stay, time of stay, and other factors the hotel had no control over. Using linear regression in R Studio, we found no correlations between the independent and dependent variable. Although we had 20 variables to find correlation for, our analysis showed none of these correlated with the review of the hotel. This suggests there is no one variable that will affect the review more than any other.
 
 When in Vegas, would we put our money on the best regression we could come up with to predict Vegas Hotel Review Scores? Probably not. 
 
